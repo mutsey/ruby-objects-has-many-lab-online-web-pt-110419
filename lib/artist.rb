@@ -1,7 +1,7 @@
 Lizzo= Artist.new("Lizzo")
-Good_As_Hell = Song.new("","rap")
+Good_As_Hell = Song.new("Good As Hell","rap")
  
-old_town_road.artist = lil_nas_x
+Good_As_Hell.artist = Lizzo
  
-old_town_road.artist.name #=> "Lil Nas X"
-lil_nas_x.songs #=> []
+Good_As_Hell.artist.name #=> "Lizzo"
+Lizzo.songs #=> []
