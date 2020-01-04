@@ -1,5 +1,5 @@
-lil_nas_x = Artist.new("Lil Nas X")
-old_town_road = Song.new("Old Town Road","hip-hop")
+Lizzo= Artist.new("Lizzo")
+Good_As_Hell = Song.new("","rap")
  
 old_town_road.artist = lil_nas_x
  
